@@ -1,0 +1,7 @@
+{
+  "name": "AI Conversational Coder",
+  "description": "An interactive coding environment where you can conversationally build and test web applications by speaking or typing to an AI agent. The agent writes code in real-time, which is instantly executed in a preview window.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
