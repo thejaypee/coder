@@ -1,5 +1,5 @@
 import { GoogleGenAI, Modality } from "@google/genai";
-import type { LiveServerMessage, Blob, ConnectCallbacks } from '@google/genai';
+import type { LiveServerMessage, Blob } from '@google/genai';
 import { decodeAudioData, encode } from '../utils/audio';
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
